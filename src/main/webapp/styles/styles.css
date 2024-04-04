@@ -1,0 +1,62 @@
+* {
+    font-family: Rubik, sans-serif;
+}
+
+.icon-link {
+    align-items: baseline;
+}
+
+.page-title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    --bs-link-color-rgb: var(--bs-body-color-rgb);
+}
+
+#theme-switcher {
+    font-size: 24px;
+}
+
+/* chat */
+.message {
+    overflow-wrap: anywhere;
+    padding: 12px;
+    border-radius: 0.375rem;
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+.my-message {
+    background-color: var(--bs-primary-bg-subtle);
+}
+
+.others-message {
+    background-color: var(--bs-info-bg-subtle);
+}
+
+
+/* error */
+#status-code {
+    margin: 100px 0;
+    font-size: 7rem;
+    font-weight: bolder;
+
+    user-select: none;
+
+    color: transparent;
+    background-clip: text;
+    background-image: url(https://media.giphy.com/media/3o7aCRBaUv3Sng0rTy/giphy.gif);
+    background-position: center;
+}
+
+#error-home-btn {
+    margin-bottom: 100px;
+}
